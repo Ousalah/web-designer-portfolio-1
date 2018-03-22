@@ -1,0 +1,24 @@
+ /***************** Start Blue Theme *****************/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.option-box .gear-check,
+.cssload-loader::before,
+.cssload-loader::after { background-color: #0895D1; }
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.testimonials span,
+.footer h3,
+.footer .copyright span,
+.cssload-loader { color: #0895D1; }
+
+.option-box .color-option,
+.testimonials .carousel-indicators li.active { border: 3px solid #0895D1; }
+
+.dropdown-menu { border-top: 3px solid #0895D1; }
+/***************** End Blue Theme *****************/

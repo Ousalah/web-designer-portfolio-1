@@ -1,0 +1,40 @@
+/*#######################################################################
+#	each media Does not affect the other media,							#
+#	we Don't have Overriding of style,								  	#
+#	so should repeat all nedded style to other media size to apply it. 	#
+#######################################################################*/
+
+/* From 0px To 767px - (Mobile & Tablet) - [xs] */
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li > a { padding-top: 10px; padding-bottom: 10px; }
+
+    .subscribe .form-control { margin: 20px auto; width: 400px; }
+
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse { max-height: none; } 
+
+    .footer{  text-align: center; } 
+
+	.footer .social-list { display: inline-block; }
+
+	.footer .media-body{ text-align: left; }  
+}
+
+/* From 768px To 991px - (Small Screen) - [sm] */
+@media (min-width: 768px) and (max-width: 991px) {
+	.footer{  text-align: center; }
+
+	.footer .social-list { display: inline-block; }
+
+	.footer .media-body{ text-align: left; }
+}
+
+/* From 991px To 1199px - (Medium Screen) - [md] */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.footer .row > div { margin-bottom: 20px; }
+}
+
+/* From 1200px to (n)px - (Large Screen) - [lg] */
+@media (min-width: 1200px) {
+
+}
