@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+		    
+		<champ>
+			<tag>input</tag><label>Select Your favorite sport</label><type>checkbox</type><name>favorit_sport</name><id>favorit_sport</id><dbType>varchar(255)</dbType><options><option><name>Football</name><value>Football</value></option><option><name>Tenis</name><value>Tenis</value></option><option><name>Swimming</name><value>Swimming</value></option><option><name>Hukky</name><value>Hukky</value></option><option><name>Basball</name><value>Basball</value></option><option><name>basket</name><value>basket</value></option></options></champ></config>

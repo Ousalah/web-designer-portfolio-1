@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+		    
+		<champ><tag>input</tag><label>How many PC do you own ?</label><type>text</type><name>Ower</name><id>Ower</id><dbType>varchar(50)</dbType></champ></config>

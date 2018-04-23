@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+		    
+		<champ><tag>input</tag><label>Multiple Radios</label><type>radio</type><name>user0101</name><id>user0101</id><dbType>varchar(20)</dbType><options><option><name>Option one</name><value>1</value></option><option><name>Option two</name><value>2</value></option></options></champ><champ><tag>input</tag><label>Multi-Checkboxes</label><type>checkbox</type><name>city207</name><id>city207</id><dbType>varchar(255)</dbType><options><option><name>Option one</name><value>1</value></option><option><name>Option two</name><value>2</value></option></options></champ></config>

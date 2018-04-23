@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+		    
+		<champ><tag>input</tag><label>What's your username ?</label><type>text</type><name>Username</name><id>Username</id><dbType>varchar(50)</dbType></champ></config>

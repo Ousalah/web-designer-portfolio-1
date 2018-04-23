@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+		    
+		<champ>
+			<tag>input</tag>
+			<label>Fullname</label>
+			<type>text</type>
+			<name>fullname</name>
+			<id>fullname</id>
+			<dbType>varchar(50)</dbType>
+		</champ>
+		<champ>
+			<tag>input</tag>
+			<label>Gender</label>
+			<type>radio</type>
+			<name>gender</name>
+			<id>gender</id>
+			<dbType>varchar(20)</dbType>
+			<options>
+				<option>
+					<name>Man</name>
+					<value>Man</value>
+				</option>
+				<option>
+					<name>Woman</name>
+					<value>Woman</value>
+				</option>
+			</options>
+		</champ>
+		<champ>
+			<tag>input</tag>
+			<label>Age</label>
+			<type>text</type>
+			<name>age</name>
+			<id>age</id>
+			<dbType>varchar(50)</dbType>
+		</champ>
+			<champ><tag>textarea</tag>
+			<label>Address</label>
+			<type>textarea</type>
+			<name>address</name>
+			<id>address</id>
+			<dbType>text</dbType>
+		</champ>
+		</config>

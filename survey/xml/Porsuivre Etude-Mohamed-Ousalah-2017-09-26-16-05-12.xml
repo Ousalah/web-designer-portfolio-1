@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+		    
+		<champ>
+			<tag>input</tag>
+			<label>Nom</label>
+			<type>text</type>
+			<name>nom</name>
+			<id>nom</id>
+			<dbType>varchar(50)</dbType>
+		</champ>
+		<champ>
+			<tag>select</tag>
+			<label>Reponce</label>
+			<type>select</type>
+			<name>Reponce</name>
+			<id>Reponce</id>
+			<dbType>varchar(20)</dbType>
+			<options>
+				<option>
+					<name>Oui</name>
+					<value>Oui</value>
+				</option>
+				<option>
+					<name>Non</name>
+					<value>Non</value>
+				</option>
+			</options>
+		</champ>
+	</config>
